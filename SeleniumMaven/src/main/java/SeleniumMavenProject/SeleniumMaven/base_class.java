@@ -43,7 +43,7 @@ public class base_class {
 	public static void takescreenshot(String screenshotname) throws Exception {
 		TakesScreenshot tc = (TakesScreenshot) driver;
 		File Source = tc.getScreenshotAs(OutputType.FILE);
-		File Target = new File(Projectpath + "\\target\\" + screenshotname + ".png");
-		FileHandler.copy(Source, Target);
+		File SaveTo = new File(Projectpath + "\\Evidences\\" + screenshotname + ".png");
+		FileHandler.copy(Source, SaveTo);
 	}
 }

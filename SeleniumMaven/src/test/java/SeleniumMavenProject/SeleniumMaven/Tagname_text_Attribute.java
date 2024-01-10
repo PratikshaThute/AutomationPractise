@@ -3,6 +3,8 @@ package SeleniumMavenProject.SeleniumMaven;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
+import SeleniumMavenProject.SeleniumMaven.base_class;
+
 public class Tagname_text_Attribute extends base_class {
 
 	public static void main(String[] args) {
