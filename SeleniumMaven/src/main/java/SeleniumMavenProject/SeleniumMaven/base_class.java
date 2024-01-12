@@ -38,6 +38,7 @@ public class base_class {
 	public static void navigate(String url) {
 		driver.get(url);
 		System.out.println("Navigate Url is :-" + url);
+		System.out.println("The title of webpage is : "+ driver.getTitle());
 	}
 
 	public static void takescreenshot(String screenshotname) throws Exception {
