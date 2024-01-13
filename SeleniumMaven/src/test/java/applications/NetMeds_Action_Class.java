@@ -26,8 +26,7 @@ public class NetMeds_Action_Class extends base_class {
 		Thread.sleep(3000);
 		WebElement sign = driver.findElement(By.xpath("//a[text()=' Sign in / Sign up ']"));
 		act.moveToElement(sign).contextClick().build().perform();
-		
-		takescreenshot("NetMeds - Right click on Sign in / sign up");
+		takescreenshot("NetMeds");
 		
 	}
 
