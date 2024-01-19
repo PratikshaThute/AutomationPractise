@@ -19,8 +19,7 @@ public class Copy_Paste extends base_class {
 		Actions act = new Actions(driver);
 
 		act.moveToElement(Login).click().build().perform();
-		takescreenshot("Naukri - click on login");
-		
+	
 		WebElement email = driver.findElement(By.xpath("//input[@placeholder='Enter your active Email ID / Username']"));
 		email.sendKeys("pthute29@gmail.com");
 		takescreenshot("naukri - enter username");
