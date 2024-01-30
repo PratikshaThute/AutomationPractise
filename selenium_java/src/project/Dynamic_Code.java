@@ -36,6 +36,8 @@ public class Dynamic_Code {
 	public static void Hit_url(String url) {
 		driver.get(url);
 		System.out.println("The current url is "+ url);
+		
+		System.out.println("The title of webpage is : "+ driver.getTitle());
 	}
 	
 	public static void Takescreenshot (String imagename) throws Exception {

@@ -8,6 +8,8 @@ public class Snapchat extends Dynamic_Code {
 		Hit_url("https://www.snapchat.com/");
 		
 		Takescreenshot("Snapchat - Homepage");
+		
+		
 	}
 
 }
