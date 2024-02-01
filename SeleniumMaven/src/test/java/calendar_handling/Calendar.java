@@ -14,8 +14,6 @@ public class Calendar extends base_class {
 		WebElement calendar = driver.findElement(By.xpath("//input[@id='datepicker_train']"));
 		calendar.click();
 
-		 
-		
 		while (true) {
 			
 			String M_Y = driver.findElement(By.xpath("(//th[@class='datepicker-switch'])[1]")).getText();
