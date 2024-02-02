@@ -18,7 +18,7 @@ public class Report_screenshot extends base_class {
 
 		String Projectpath = System.getProperty("user.dir");
 
-		ExtentSparkReporter report = new ExtentSparkReporter(Projectpath + "\\Reports\\testing");
+		ExtentSparkReporter report = new ExtentSparkReporter("../SeleniumMaven/Reports/testing");
 		report.config().setDocumentTitle("Automation testing");
 		report.config().setReportName("Sanity Testing");
 		report.config().setTheme(Theme.DARK);
